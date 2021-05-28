@@ -1,0 +1,82 @@
+{
+  "statements": {
+    "playing": [
+      "playing",
+      "i hope you like the song"
+    ],
+    "searching": [
+      "searching",
+      "looking for",
+      "searching online for"
+    ],
+    "date": [
+      "i can go on a date with you,i don't have a heart",
+      "are you sure about that? your IQ is not upto the mark",
+      "Not enough money found in your bank account. Sorry, I can't go on a date."
+    ],
+    "choice_not_found": [
+      "sorry choice not found",
+      "i think that's an invalid choice",
+      "sorry couldn't understand the choice, thanks for wasting my time"
+    ],
+    "sleep": [
+      "going to sleep, seeya",
+      "really, I thought we were friends. Fine then, Bye"
+    ],
+    "understand": [
+      "sorry i couldn't understand what you said, maybe try in a less noisy environment",
+      "sorry I guess that's an invalid response"
+    ],
+    "command_not_found": [
+      "Please say the command again.",
+      "sorry the command wasn't recognised",
+      "that command was not recognised, ask my creator to add it to my functionalities."
+    ]
+  },
+  "states": [
+    "total",
+    "maharashtra",
+    "kerala",
+    "karnataka",
+    "andhra pradesh",
+    "tamil nadu",
+    "delhi",
+    "uttar pradesh",
+    "west bengal",
+    "odisha",
+    "rajasthan",
+    "chhattisgarh",
+    "telangana",
+    "haryana",
+    "gujarat",
+    "bihar",
+    "madhya pradesh",
+    "assam",
+    "punjab",
+    "jammu and kashmir",
+    "jharkhand",
+    "uttarakhand",
+    "himachal pradesh",
+    "goa",
+    "puducherry",
+    "tripura",
+    "manipur",
+    "chandigarh",
+    "arunachal pradesh",
+    "meghalaya",
+    "nagaland",
+    "ladakh",
+    "sikkim",
+    "andaman and nicobar islands",
+    "mizoram",
+    "dadra and nagar haveli and daman and diu",
+    "lakshadweep",
+    "state unassigned"
+  ],
+  "application_paths": {
+    "vlc": "C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe",
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "notepad": "C:\\Windows\\System32\\notepad.exe"
+  },
+  "pyowm_key": "1026b8dc6676801f9e547a7bf9da07f4"
+}
