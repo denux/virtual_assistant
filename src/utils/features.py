@@ -12,7 +12,7 @@ class Features:
     """
 
     def __init__(self, obj_aud, config_json):
-        self.covid_json = requests.get('https://api.covid19india.org/data.json').json()
+        self.covid_json = requests.get(config_json.get("covid_api")).json()
         self.obj_aud = obj_aud
         self.config_json = config_json
 

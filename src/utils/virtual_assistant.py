@@ -16,7 +16,7 @@ load_dotenv()
 class VirtualAssistant:
     def __init__(self):
         self.config_json = self.read_config_json(os.getenv("config_json_path", ""))
-        self.owm = pyowm.OWM(self.config_json.get("pyowm_key"))
+        self.owm = pyowm.OWM(os.getenv("pyowm_key",""))
         self.audio = AudioUtility()
         self.feature = Features(self.audio, self.config_json)
 

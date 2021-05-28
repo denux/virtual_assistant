@@ -25,6 +25,13 @@ If the above mentioned method doesn't work try install **.whl** file according t
 ```bash
 pip install -path_to_whl_file-
 ```
+3. Update **config.json** to include application paths
+
+4. Add/update **.env** to include following parameters (pyowm key can be generated [here](https://openweathermap.org/)):
+```bash
+config_json_path = --path to config json here--
+pyowm_key= --pyowm generated key--
+```
 
 ## Usage
 

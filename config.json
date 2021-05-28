@@ -78,5 +78,5 @@
     "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "notepad": "C:\\Windows\\System32\\notepad.exe"
   },
-  "pyowm_key": "1026b8dc6676801f9e547a7bf9da07f4"
+  "covid_api": "https://api.covid19india.org/data.json"
 }
