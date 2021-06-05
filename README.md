@@ -42,14 +42,14 @@ from src.utils.virtual_assistant import VirtualAssistant
 VirtualAssistant().start_assistant()
 ```
 Few sample commands to try once the utility is running :
-1. alexa what time it is?
-2. alexa what date is it?
-3. alexa what does **"say an object or concept name"** means?
-4. alexa give latest covid reports.
-5. alexa tell me a joke
-6. alexa who is **"say a persons name"**?
-7. alexa play **"say a song name"**
-8. alexa open **"say a configured application name"**
+1. elsa what time it is?
+2. elsa what date is it?
+3. elsa what does **"say an object or concept name"** means?
+4. elsa give latest covid reports.
+5. elsa tell me a joke
+6. elsa who is **"say a persons name"**?
+7. elsa play **"say a song name"**
+8. elsa open **"say a configured application name"**
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

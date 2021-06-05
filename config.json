@@ -78,5 +78,12 @@
     "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "notepad": "C:\\Windows\\System32\\notepad.exe"
   },
-  "covid_api": "https://api.covid19india.org/data.json"
+  "covid_api": "https://api.covid19india.org/data.json",
+  "find_nearest": {
+    "api_url": "https://discover.search.hereapi.com/v1/discover",
+    "current_lat": "current lat",
+    "current_long": "current long",
+    "search_limit": 50,
+    "talk_limit": 5
+  }
 }
