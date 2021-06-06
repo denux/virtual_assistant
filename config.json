@@ -81,8 +81,8 @@
   "covid_api": "https://api.covid19india.org/data.json",
   "find_nearest": {
     "api_url": "https://discover.search.hereapi.com/v1/discover",
-    "current_lat": "current lat",
-    "current_long": "current long",
+    "current_lat": 28.50725901530558,
+    "current_long": 77.24380351314643,
     "search_limit": 50,
     "talk_limit": 5
   }

@@ -71,7 +71,7 @@ class Features:
         function to find web search results of a specific string
         :param command: string to be searched online
         """
-        search_term = command.split("is")[-1]
+        search_term = command.split(" is ")[-1]
         self.obj_aud.talk(random.choice(self.config_json["statements"]["searching"]) + search_term)
         print("searching", search_term)
         try:
@@ -95,3 +95,6 @@ class Features:
                     self.obj_aud.talk(p)
             except (ValueError, Exception):
                 self.obj_aud.talk(random.choice(self.config_json["statements"]["choice_not_found"]))
+
+        except (ValueError,Exception):
+            self.obj_aud.talk("Sorry couldn't find results online, please try again.")
